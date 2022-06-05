@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import Hero from './Components/Hero';
 
 function App() {
   return (
     <React.Fragment>
-
+      <Hero />
     </React.Fragment>
   );
 }

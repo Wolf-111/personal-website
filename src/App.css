@@ -1,0 +1,17 @@
+.hero-content{
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: solid black;
+}
+
+.hero-image{
+    width: 350px;
+    /* height: 100%; */
+}
+
+.hero-text{
+
+}
