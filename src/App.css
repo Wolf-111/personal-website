@@ -1,17 +1,114 @@
-.hero-content{
+.hero {
+    background-color: #F9F9F9;
+}
+
+.hero-content {
     width: 50%;
-    height: 50%;
+    height: 100vh;
     margin: auto;
-    position: absolute;
-    top: 0; left: 0; bottom: 0; right: 0;
-    border: solid black;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
-.hero-image{
-    width: 350px;
-    /* height: 100%; */
+.hero-image {
+    width: 300px;
+    max-height: 350px;
+    margin: auto;
 }
 
-.hero-text{
+.hero-text {
+    margin: auto;
+}
 
+@media only screen and (max-width: 991.5px) {
+    .hero-text {
+        text-align: center;
+        margin-top: -10px;
+    }
+}
+
+@media only screen and (max-width: 1393px) {
+    .hero-content {
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 539.5px) {
+    .hero-button {
+        margin-bottom: 15px;
+        width: 250px !important;
+        height: 60px !important;
+    }
+}
+
+.hero-title {
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.hero-subtitle {
+    margin-top: 10px;
+    letter-spacing: 4px;
+    font-size: 25px;
+}
+
+.hero-buttons {
+    margin-top: 50px;
+}
+
+.hero-button {
+    font-size: 17px;
+    margin-right: 25px;
+    height: 45px;
+    width: 150px;
+    background-color: #09333F;
+    color: white;
+    border-color: #09333F;
+}
+
+.portfolio-content {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.portfolio-title {
+    font-size: 45px;
+    text-align: center;
+}
+
+.sigma7-img {
+    width: 100%;
+}
+
+.sigma7-title {
+    color: #00BCDD;
+    font-size: 45px;
+}
+
+.sigma7-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.coinlink-row {
+    margin-top: 25px;
+}
+
+.coinlink-title {
+    font-size: 45px;
+}
+
+.coinlink-text {
+    font-size: 20px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+
+.coinlink-img {
+    width: 100%;
 }
